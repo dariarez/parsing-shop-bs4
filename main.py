@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 
 
 for n in range(7):
-    url = f'https://scrapingclub.com/exercise/list_basic/?page={n+1}'
+    url = f'your_link'
     response = requests.get(url)
     soup = BeautifulSoup(response.text, 'lxml' )
     link_1 = soup.find_all('h4', class_ = 'card-title')

@@ -24,8 +24,3 @@ for n in range(7):
                 print('price= ' + price[i].text)
                 print(description[i].text)
                 print('\n')
-
-
-
-
-
